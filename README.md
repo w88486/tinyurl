@@ -1,8 +1,5 @@
 # tinyurl
-短地址服务，实现短地址管理和短地址重定向到源地址
-包括以下服务
-- 短地址管理
-- 重定向
+短地址服务，实现短地址管理和短地址重定向到源地址的功能
 ## 短地址管理
 使用方法：
 1. 编译
@@ -37,4 +34,4 @@ ip为服务器所在主机地址
 cc -g tinyurl-http.c -o tinyurl-http -L/usr/lib/openssl -lssl -lcrypto -lhiredis
 ```
 2. 跳转
-http://youaddress:port/short_url
+        浏览器输入http://youaddress:port/short_url

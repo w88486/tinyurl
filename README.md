@@ -34,4 +34,4 @@ ip为服务器所在主机地址
 cc -g tinyurl-http.c -o tinyurl-http -L/usr/lib/openssl -lssl -lcrypto -lhiredis
 ```
 2. 跳转
-        浏览器输入http://youaddress:port/short_url
+> 浏览器输入http://youaddress:port/short_url

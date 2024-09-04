@@ -12,7 +12,7 @@
 #include <ctype.h>
 #include <errno.h>
 #include <signal.h>
-#define PORT 27032
+#define PORT 8888
 
 typedef struct messege
 {

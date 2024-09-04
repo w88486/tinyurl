@@ -61,7 +61,6 @@ int main(int argc, char const *argv[])
     // 关闭
     close(fd);
     return 0;
-    return 0;
 }
 
 int httpstart(int port, int maxcon)
